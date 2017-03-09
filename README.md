@@ -6,9 +6,9 @@
 This extensions is devoted to manage tabs
 
 ##Reference
+
 [right way to add content & event listener](https://github.com/mdn/webextensions-examples/tree/master/quicknote)
 [first setp to operate tabs](https://github.com/mdn/webextensions-examples/tree/master/list-cookies)
-
 [how to debug web extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Debugging#Debugging_popups)
 
 other useful sample codes
