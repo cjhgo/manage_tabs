@@ -14,8 +14,8 @@
     "96": "icons/cookie@2x.png"
   },
   "homepage_url": "https://github.com/cjhgo/manage_tabs",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "List tabs",
-  "version": "1.0",
+  "version": "2.0",
   "permissions": ["cookies","<all_urls>","tabs"]
 }
