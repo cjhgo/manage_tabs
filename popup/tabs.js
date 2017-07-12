@@ -51,7 +51,20 @@ function submit_tabs()
 {
     get_selected_items();
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("POST", "http://api.cjhang.com/v1/posttitles/", true);
+    xmlHttp.open("POST", "https://api.cjhang.com/v1/posttitles/", true);
+    var data = JSON.stringify(window.selected_items);
+    xmlHttp.send(data);
+    console.log(window.tabs);
+    console.log(window.selected_items);
+}
+
+var populate = document.querySelector('#populate');
+populate.addEventListener('click', populate_titles);
+function populate_titles()
+{
+    get_selected_items();
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("POST", "https://api.cjhang.com/v1/posttitles/?only_title=1", true);
     var data = JSON.stringify(window.selected_items);
     xmlHttp.send(data);
     console.log(window.tabs);
